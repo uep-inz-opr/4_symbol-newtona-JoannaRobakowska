@@ -1,4 +1,4 @@
 import math
 liczby = input("Aby obliczyć silnię, podaj dwie liczby oddzielone spacją:")
-liczby = input().split()
+liczby = liczby.split()
 print (math.comb(liczby))
