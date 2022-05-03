@@ -1,4 +1,4 @@
 import math
-print ("Aby obliczyć silnię, podaj dwie liczby oddzielone spacją:")
-n, k = input()
+n = input("Aby obliczyć silnię, podaj dwie liczby oddzielone spacją:")
+k = input("Podaj drugą liczbę")
 print (math.comb(n, k))
