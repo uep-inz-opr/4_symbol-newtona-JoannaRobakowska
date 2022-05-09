@@ -5,7 +5,7 @@ from math import *
 #from math import factorial
 
 def silnia(n, k):
-	return factorial(n) // (factorial(k) * factorial(n-k))
+	return factorial(n) / (factorial(k) * factorial(n-k))
 
 n, k = input("Enter two values: ").split()
 n = int(n)
