@@ -1,6 +1,6 @@
 from math import factorial
 def silnia(n, k):
-	return factorial(n) // (factorial(k) * factorial(n-k))
+	return factorial(n) // (factorial(k) * factorial(n-1))
 	print (silnia(6, 4))
 
 #t=int(stdin.readline());
