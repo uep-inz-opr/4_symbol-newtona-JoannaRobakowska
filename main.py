@@ -7,7 +7,7 @@ from math import *
 def silnia(n, k):
 	return factorial(n) // (factorial(k) * factorial(n-k))
 
-n, k = input("Enter two values: ").split()
+n, k = int(input("Enter two values: ").split())
  
 if k == 0 or k == n:
 	print ("1")
