@@ -9,7 +9,7 @@ def silnia(n, k):
 
 n, k = input("Enter two values: ").split()
  
-	if k == 0 or k == n: 
-		print ("1")
-	else : 
+	if k != 0 and k != n: 
 		print(silnia(n,k))
+	else : 
+		print ("1")
