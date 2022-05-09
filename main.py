@@ -1,4 +1,4 @@
-import math
+from math import factorial
 def silnia(n, k):
 	return factorial(n) // (factorial(k) * factorial(n-k))
 	print (silnia(6, 4))
@@ -17,7 +17,7 @@ def silnia(n, k):
 	#k=int(4)
 	#print(silnia(n,k))
 #liczby = input("Aby obliczyć silnię, podaj dwie liczby oddzielone spacją:")
-l#iczby = liczby.split(" ")
+#iczby = liczby.split(" ")
 #def dwum(n,k):
  ##  for i in range (1,k):
    #     wynik=wynik*(n-i+1)/i
