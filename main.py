@@ -1,4 +1,3 @@
-Małgorzata Izdebska
 from math import *
 #factorial(6)/(factorial(4)*factorial(2))
 
